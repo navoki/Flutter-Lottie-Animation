@@ -47,6 +47,7 @@ flutter:
    - assets/433-checked-done.json
    - assets/29-motorcycle.json
    - assets/1368-happy-gift.json
+   - assets/16846-walking-burger.json
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

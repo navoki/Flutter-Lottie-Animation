@@ -45,7 +45,7 @@ class _LottieDemoState extends State<LottieDemo>
       duration: const Duration(milliseconds: 1),
       vsync: this,
     );
-    loadAsset("assets/29-motorcycle.json").then((LottieComposition composition) {
+    loadAsset("assets/16846-walking-burger.json").then((LottieComposition composition) {
       setState(() {
           _composition = composition;
         _controller.reset();
@@ -69,6 +69,8 @@ class _LottieDemoState extends State<LottieDemo>
               composition: _composition,
               size: const Size(300.0, 300.0),
               controller: _controller,
+               coerceDuration: true,
+
             ),
              Slider(
               value: _controller.value,
